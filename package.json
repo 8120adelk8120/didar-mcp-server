@@ -1,0 +1,16 @@
+{
+  "name": "bitrix24-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server that connects Claude to Bitrix24 CRM via an Incoming Webhook",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server-http.js",
+    "start:local": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
