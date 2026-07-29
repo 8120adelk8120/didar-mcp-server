@@ -1,1 +1,1 @@
-# bitrix24-mcp-server
+# didar-mcp-server
